@@ -1,0 +1,30 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "serverless-dynamodb-local": "^0.2.39",
+    "serverless-offline": "^6.8.0"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "aws-sdk": "^2.831.0",
+    "pg": "^8.5.1",
+    "sequelize": "^6.4.0",
+    "serverless-postgres": "^1.8.0",
+    "uuid": "^8.3.2"
+  },
+  "keywords": [],
+  "description": "",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
