@@ -5,6 +5,7 @@ var DATABASE_URL = 'postgres://postgres:1234@localhost:5433/notes';
 var client = new pg.Client(DATABASE_URL);
 client.connect();
 function response_format(code,result){
+  console.log('hi');
   const response       = {};
   response.status_code = code;
   response.body        = JSON.stringify(result);
